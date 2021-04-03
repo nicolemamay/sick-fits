@@ -24,7 +24,7 @@ const GlobalStyles = createGlobalStyle`
     --maxWidth: 1000px;
     --bs: 0 12px 24px 0 rgba(0,0,0,0.09);
     box-sizing: border-box;
-    font-size: 10px;
+    font-size: 62.5%; // 16px * .625 is 10px -> Using a % allows user to override value in browser settings
   }
 
   *, *:before, *:after {
